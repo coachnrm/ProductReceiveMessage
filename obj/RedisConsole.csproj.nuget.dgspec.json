@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\RedisConsole\\RedisConsole.csproj": {}
+    "/Users/home/Desktop/ProductReceiveMessage/RedisConsole.csproj": {}
   },
   "projects": {
-    "D:\\RedisConsole\\RedisConsole.csproj": {
+    "/Users/home/Desktop/ProductReceiveMessage/RedisConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RedisConsole\\RedisConsole.csproj",
+        "projectUniqueName": "/Users/home/Desktop/ProductReceiveMessage/RedisConsole.csproj",
         "projectName": "RedisConsole",
-        "projectPath": "D:\\RedisConsole\\RedisConsole.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\RedisConsole\\obj\\",
+        "projectPath": "/Users/home/Desktop/ProductReceiveMessage/RedisConsole.csproj",
+        "packagesPath": "/Users/home/.nuget/packages/",
+        "outputPath": "/Users/home/Desktop/ProductReceiveMessage/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/home/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +45,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "RabbitMQ.Client": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -65,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
